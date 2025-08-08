@@ -1,17 +1,29 @@
-*{
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
 body{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 14pt;
     background-color: rgb(101, 125, 204);
 }
+
+h1{
+    font-size: 20pt;
+    font-family: "Finger Paint", sans-serif;
+}
+h2{
+    font-size: 20pt;
+    font-family: "Finger Paint", sans-serif;
+}
+
 
 main{
     position: absolute;
     background-color: white;
     width: 400px;
+    height: 750px;
     margin: auto;
     box-shadow:3px 3px 4px rgba(0, 0, 0, 0.4);
-    padding:10px;
+    padding:18px;
+    left: 700px;
+    top: 100px;
 }

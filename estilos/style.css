@@ -19,11 +19,19 @@ h2{
 main{
     position: absolute;
     background-color: white;
-    width: 400px;
-    height: 750px;
+    width: 600px;
+    height: 1100px;
     margin: auto;
     box-shadow:3px 3px 4px rgba(0, 0, 0, 0.4);
-    padding:18px;
+    padding:20px;
     left: 700px;
     top: 100px;
+}
+
+img.lado{
+   float: right;
+}
+
+p{
+justify-content: last baseline;
 }
